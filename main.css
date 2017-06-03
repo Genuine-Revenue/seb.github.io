@@ -8,6 +8,11 @@
     margin-bottom: 0 !important;
 }
 
+.img-responsive {
+    max-width: 100% !important;
+    height: auto !important;
+}
+
 span {
     display:inline-block;
     border-bottom: 1px solid #e7e7e7;
@@ -49,6 +54,22 @@ span {
     -webkit-box-shadow: 0 8px 6px -6px black;
     -moz-box-shadow: 0 8px 6px -6px black;
     box-shadow: 0 8px 6px -6px black;
+    border: 0px;
+}
+
+.video-js:focus {
+    outline: none;
+}
+
+.my-video-dimensions {
+    max-width: 100% !important;
+    height: auto !important;
+}
+
+.video-js .vjs-tech {
+    position: relative !important;
+    max-width: 100%;
+    height: auto;
 }
 
 .homeSecondBlock {
